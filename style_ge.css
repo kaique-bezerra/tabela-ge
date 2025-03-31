@@ -1,0 +1,20 @@
+table { 
+    border: 1px solid black;
+    border-spacing: 20px 0 0;
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid black;
+    padding: 20px;
+    
+}
+tr:nth-child(even) {background-color: rgb(237, 241, 241);}
+
+
+.numero1-3 {color: rgb(0, 0, 156);}
+.numero4-5{color:rgb(0, 191, 255);}
+.numero6{color: green;}
+.numero10{color:red;}
+.empate {color:gray;}
+.vitoria{color:green;}
+.derrota{color:red;}
